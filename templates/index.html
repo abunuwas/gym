@@ -2,13 +2,18 @@
 <html>
   <head>
       <style>
+        #calendar {
+          background-color: red;
+        }
 
+        #test {
+          blackground-color: black;
+        }
       </style>
   </head>
   <body>
     <h3>Gym Routine tracker</h3>
     <div id="calendar"></div>
-    <script src="{{ url_for('static', filename='js/moment.min.js') }}"></script>
     <script src="{{ url_for('static', filename='js/calendar.js') }}"></script>
   </body>
 </html>

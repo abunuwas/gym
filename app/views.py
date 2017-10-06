@@ -48,6 +48,9 @@ def set_get(id):
 @app.route('/set', methods=['POST'])
 def set_post():
     data = g.data
+    return jsonify({
+        'status': 200
+    })
 
 
 if __name__ == '__main__':
